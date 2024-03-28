@@ -114,6 +114,9 @@
      width: 80%;
      border-top-left-radius: 2.6rem;
      border-top-right-radius: 2.6rem;
+     display: flex;
+     flex-wrap: wrap;
+     padding-left: 5rem;
  }
 
  .card-1 {
@@ -141,12 +144,12 @@
      overflow: hidden;
  }
 
- .card-1 .image-box:hover img {
+ img:hover {
      transform: scale(1.1);
  }
 
  /* details section styles */
- .details {
+ .details .title {
 
 
 
@@ -154,6 +157,22 @@
      font-weight: 100;
      font-style: normal;
      text-align: center;
+     padding-top: 1rem;
+     background-color: pink;
+     height: 2.2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 
 
+
+ }
+
+
+ .icon-name {
+     /* background-color: indianred; */
+     height: 5.8rem;
+     display: flex;
+     padding: 2rem 2rem;
+     column-gap: 2rem;
  }
