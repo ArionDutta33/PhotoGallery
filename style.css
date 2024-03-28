@@ -193,12 +193,24 @@
      width: 20rem;
      z-index: 1111;
      display: flex;
-     background-color: #fff;
+     background-color: #bde0fe;
      flex-direction: column;
      align-items: center;
      justify-content: space-around;
      display: none;
 
+ }
+
+ .sidebar img {
+     position: fixed;
+     top: 1rem;
+     right: 17.1rem;
+     height: 1.5rem;
+
+ }
+
+ .sidebar img:hover {
+     transform: scale(1.4);
  }
 
  .sidebar a {
@@ -213,4 +225,35 @@
 
  .sidebar a:hover {
      background-color: #d4a373;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:1226px) {
+     .navbar {
+         position: relative;
+     }
+
+     .navbar .navitems a {
+         display: none;
+
+     }
+
+     .navbar .navitems i {
+         font-size: 2rem;
+         right: 2rem;
+         position: absolute;
+         display: block;
+     }
+
  }
