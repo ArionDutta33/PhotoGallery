@@ -1,6 +1,14 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
  * {
      margin: 0;
      padding: 0;
@@ -8,6 +16,8 @@
      transition: .2s linear;
      text-decoration: none;
      list-style-type: none;
+     border: none;
+     outline: none;
  }
 
  :root {
@@ -45,4 +55,105 @@
 
  .navbar i {
      display: none;
+ }
+
+ /* styles for the stretched image container */
+ .stretched-image {
+     background-color: red;
+     height: 20rem;
+     background-color: rgb(54, 52, 52);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     row-gap: 4rem;
+     background-image: url("./wajid-hussain-ifjEbN18R44-unsplash.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ /* styles for the header text */
+ .stretched-image h3 {
+     color: white;
+     width: 100%;
+     font-size: 4vw;
+
+     font-family: "Roboto Slab", serif;
+     font-optical-sizing: auto;
+     font-weight: 800;
+     font-style: normal;
+     display: flex;
+     justify-content: center;
+     letter-spacing: 1.23vw;
+ }
+
+ /* styles for the search bar */
+
+ .stretched-image input {
+     width: 50%;
+     height: 20%;
+     border-radius: .6rem;
+     padding: 2rem 2rem;
+     font-size: 1.23vw;
+ }
+
+ /* //card container */
+ .card-container {
+     background-color: red;
+     height: 60rem;
+     display: flex;
+     align-items: end;
+     justify-content: center;
+ }
+
+ /* outer layer container styles */
+ .outer-layer-container {
+     background-color: green;
+     height: 90%;
+     width: 80%;
+     border-top-left-radius: 2.6rem;
+     border-top-right-radius: 2.6rem;
+ }
+
+ .card-1 {
+     height: 20rem;
+     background-color: yellow;
+     width: 20rem;
+     margin: 4rem 4rem;
+     overflow: hidden;
+     transition: transform .1s linear;
+     border-top-left-radius: 1rem;
+     border-top-right-radius: 1rem;
+ }
+
+ .image-box {
+     height: 12rem;
+
+     background-color: orange;
+ }
+
+ .card-1 .image-box img {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     object-position: center;
+     overflow: hidden;
+ }
+
+ .card-1 .image-box:hover img {
+     transform: scale(1.1);
+ }
+
+ /* details section styles */
+ .details {
+
+
+
+     font-family: "Roboto", sans-serif;
+     font-weight: 100;
+     font-style: normal;
+     text-align: center;
+
+
  }
